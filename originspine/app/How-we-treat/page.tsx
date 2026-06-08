@@ -286,7 +286,7 @@ export default function HowWeTreat() {
             }}>
               {[
                 { val:5000, suf:"+", label:"Patients Treated" },
-                { val:12,   suf:"+", label:"Years Experience" },
+                { val:20,   suf:"+", label:"Years Experience" },
                 { val:4,    suf:"",  label:"Therapy Modalities" },
                 { val:97,   suf:"%", label:"Patient Satisfaction" },
               ].map(s => (
