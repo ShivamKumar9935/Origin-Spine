@@ -1,32 +1,29 @@
-export default function sitemap() {
+import { MetadataRoute } from "next";
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = "https://origin-spine.vercel.app";
+
   return [
     {
-      url: "https://origin-spine.vercel.app",
-      lastModified: new Date(),
+      url: baseUrl,
     },
     {
-      url: "https://origin-spine.vercel.app/physiotherapy-in-patna",
-      lastModified: new Date(),
+      url: `${baseUrl}/physiotherapy-in-patna`,
     },
     {
-      url: "https://origin-spine.vercel.app/slip-disc-treatment-patna",
-      lastModified: new Date(),
+      url: `${baseUrl}/slip-disc-treatment-patna`,
     },
     {
-      url: "https://origin-spine.vercel.app/back-pain-treatment-patna",
-      lastModified: new Date(),
+      url: `${baseUrl}/back-pain-treatment-patna`,
     },
     {
-      url: "https://origin-spine.vercel.app/knee-pain-treatment-patna",
-      lastModified: new Date(),
+      url: `${baseUrl}/knee-pain-treatment-patna`,
     },
     {
-      url: "https://origin-spine.vercel.app/how-we-treat",
-      lastModified: new Date(),
+      url: `${baseUrl}/how-we-treat`,
     },
     {
-      url: "https://origin-spine.vercel.app/problems",
-      lastModified: new Date(),
+      url: `${baseUrl}/problems`,
     },
   ];
 }
