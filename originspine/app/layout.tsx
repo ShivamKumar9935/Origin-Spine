@@ -12,9 +12,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Origin spine",
-  description: "Acupressure and physiotherapy clinic in patna",
+export const metadata = {
+  title: "Origin Spine",
+  description: "Pain Relief Clinic in Patna",
+  verification: {
+    google: "li6MEXqRXMduHB7kE3-NisPQ0Q1pu5QvtixV2hR9NS0",
+  },
 };
 
 export default function RootLayout({
