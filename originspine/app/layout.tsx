@@ -13,11 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Origin Spine",
-  description: "Pain Relief Clinic in Patna",
-  verification: {
-    google: "li6MEXqRXMduHB7kE3-NisPQ0Q1pu5QvtixV2hR9NS0",
-  },
+  title: "Origin Spine - Best physiotherapy clinic in patna",
+  description: "Trusted physiotherapy, pain relief clinic in Patna with best physiotherapy doctor in patna",
+  applicationName: "Origin Spine",
+  metadataBase: new URL("https://origin-spine.vercel.app"),
 };
 
 export default function RootLayout({
